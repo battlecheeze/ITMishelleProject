@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.bg-img {
+  background: url("https://i.imgur.com/jQt7AVP.jpg") no-repeat;
+  background-size: cover;
+  height: 1170px;
+  overflow: hidden; }
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto; }
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px; }
+  header #logo {
+    font-family: "Futura";
+    font-size: 48px;
+    font-stretch: extra-expanded;
+    color: #eb889e;
+    font-weight: normal;
+    font-style: italic; }
+  header .menu ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 6.15% 0 6.15% 6.15%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    header .menu ul li {
+      min-width: 100px;
+      padding: 4px;
+      margin: 3px; }
+      header .menu ul li a {
+        color: #eb889e;
+        text-decoration: none;
+        font-family: "PT Sans";
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase; }
+
+.jumbotron {
+  padding: 3.5rem 2rem; }
+  .jumbotron #logo {
+    width: 100%;
+    height: auto;
+    margin: 0 auto; }
+  .jumbotron .p-text {
+    color: #eb889e;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; }
+  .jumbotron .p-border {
+    padding-top: 5px;
+    width: 100%;
+    border-bottom: 1px solid #fff; }
+  .jumbotron .intro {
+    position: relative;
+    width: 100%; }
+    .jumbotron .intro span {
+      position: absolute;
+      top: 50%;
+      border-top: 1px solid #fff;
+      padding: 0 21%; }
+      .jumbotron .intro span.line2 {
+        left: 58%; }
+    .jumbotron .intro h3 {
+      color: #eb889e;
+      font-family: "Futura";
+      font-size: 30px;
+      font-weight: normal;
+      text-align: center;
+      text-transform: uppercase;
+      font-stretch: condensed;
+      -moz-font-stretch: condensed; }
+  .jumbotron .btn-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .jumbotron .btn-area .btn-work, .jumbotron .btn-area .btn-team {
+      display: block;
+      width: 222px;
+      height: 44px;
+      border-radius: 22px;
+      -webkit-box-shadow: 0.5px 0.866px 0px rgba(0, 0, 0, 0.13);
+      box-shadow: 0.5px 0.866px 0px rgba(0, 0, 0, 0.13);
+      border: 1px solid #927c90;
+      margin: 2%; }
+      .jumbotron .btn-area .btn-work span, .jumbotron .btn-area .btn-team span {
+        color: #fff;
+        font-size: 16px;
+        line-height: 38px;
+        display: block;
+        text-align: center;
+        font-weight: bold;
+        margin: 3px; }
+    .jumbotron .btn-area .btn-work {
+      background-color: #eb889e; }
+    .jumbotron .btn-area .btn-team {
+      background-color: #529edc; }
+
+#area-2 {
+  background-color: #ebebeb; }
+  #area-2 .intro-checkout {
+    position: relative;
+    width: 100%; }
+    #area-2 .intro-checkout span {
+      position: absolute;
+      top: 50%;
+      border-top: 1px solid #fff;
+      padding: 0 19%; }
+      #area-2 .intro-checkout span.line4 {
+        left: 63%; }
+    #area-2 .intro-checkout h3 {
+      color: #eb889e;
+      font-family: "Futura";
+      font-size: 30px;
+      font-weight: normal;
+      text-align: center;
+      text-transform: uppercase;
+      font-stretch: condensed;
+      -moz-font-stretch: condensed;
+      margin: 5px; }
+  #area-2 .p-lead {
+    font-size: 72px;
+    text-align: center;
+    font-weight: 500;
+    color: #eb889e;
+    margin: 0; }
+  #area-2 .p-border {
+    padding-top: 5px;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    margin: 2px; }
+  #area-2 .row.products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 2%; }
+    #area-2 .row.products .col-3 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      max-width: 25%;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+    #area-2 .row.products .item-1 img, #area-2 .row.products .item-2 img, #area-2 .row.products .item-3 img, #area-2 .row.products .item-4 img {
+      border-radius: 50%;
+      border: 20px solid #efefef;
+      width: 173px;
+      height: 173px; }
+    #area-2 .row.products .item-body {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+      padding: 1rem;
+      width: 100%; }
+      #area-2 .row.products .item-body h4 {
+        font-family: "Futura";
+        font-size: 22px;
+        font-weight: 500;
+        color: #eb889e;
+        margin: 2px; }
+      #area-2 .row.products .item-body p {
+        font-size: 12px;
+        line-height: 23px; }
+    #area-2 .row.products .item-1 p, #area-2 .row.products .item-3 p {
+      color: #eb889e; }
+    #area-2 .row.products .item-2 p, #area-2 .row.products .item-4 p {
+      color: #529edc; }
+  #area-2 .btn-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    #area-2 .btn-area .btn-work, #area-2 .btn-area .btn-team {
+      display: block;
+      width: 222px;
+      height: 44px;
+      border-radius: 22px;
+      -webkit-box-shadow: 0.5px 0.866px 0px rgba(0, 0, 0, 0.13);
+      box-shadow: 0.5px 0.866px 0px rgba(0, 0, 0, 0.13);
+      border: 1px solid #927c90;
+      margin: 2%; }
+      #area-2 .btn-area .btn-work span, #area-2 .btn-area .btn-team span {
+        color: #fff;
+        font-size: 16px;
+        line-height: 38px;
+        display: block;
+        text-align: center;
+        font-weight: bold;
+        margin: 3px; }
+    #area-2 .btn-area .btn-work {
+      background-color: #eb889e; }
+    #area-2 .btn-area .btn-team {
+      background-color: #529edc; }

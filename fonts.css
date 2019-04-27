@@ -23,3 +23,12 @@
     url("https://db.onlinewebfonts.com/t/da950f2527dc01bebcbedd536e38c145.ttf") format("truetype"),
     url("https://db.onlinewebfonts.com/t/da950f2527dc01bebcbedd536e38c145.svg#Futura") format("svg");
 }
+
+@font-face {font-family: "Klee";
+    src: url("https://db.onlinewebfonts.com/t/63f49d9050420602767b19bb7e9577c7.eot");
+    src: url("https://db.onlinewebfonts.com/t/63f49d9050420602767b19bb7e9577c7.eot?#iefix") format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/63f49d9050420602767b19bb7e9577c7.woff2") format("woff2"),
+    url("https://db.onlinewebfonts.com/t/63f49d9050420602767b19bb7e9577c7.woff") format("woff"),
+    url("https://db.onlinewebfonts.com/t/63f49d9050420602767b19bb7e9577c7.ttf") format("truetype"),
+    url("https://db.onlinewebfonts.com/t/63f49d9050420602767b19bb7e9577c7.svg#KLEE") format("svg");
+}

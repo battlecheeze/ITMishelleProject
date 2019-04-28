@@ -53,6 +53,7 @@ function removeColorWork() {
   btnWorkArray[0].classList.remove('work-color');
 }
 
+/*
 btnWorkArray[1].addEventListener('mouseover', addColorTeam);
 btnWorkArray[1].addEventListener('mouseout', removeColorTeam);
 
@@ -75,3 +76,4 @@ function addColorWork() {
 function removeColorWork() {
   btnWorkArray[1].classList.remove('work-color');
 }
+*/

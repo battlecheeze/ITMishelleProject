@@ -580,7 +580,7 @@ footer .footer-logo img {
 }
 
 @media screen and (max-width: 768px) {
-  .area-1 {
+  #area-1 {
     background-size: cover;
     height: auto;
   }

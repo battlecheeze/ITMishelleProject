@@ -27,33 +27,34 @@ function toggleMenu() {
 
 // Mouse over the btns
 
+// Mouse over the btns using arrays
+
 var btnWorkArray = document.getElementsByClassName('btn-work');
 var btnTeamArray = document.getElementsByClassName('btn-team');
 
-btnWorkArray[0].addEventListener('mouseover', addColorTeam);
-btnWorkArray[0].addEventListener('mouseout', removeColorTeam);
+btnWorkArray[0].addEventListener('mouseover', addColorTeam2);
+btnWorkArray[0].addEventListener('mouseout', removeColorTeam2);
 
-function addColorTeam() {
+function addColorTeam2() {
   btnTeamArray[0].classList.add('team-color');
 }
 
-function removeColorTeam() {
+function removeColorTeam2() {
   btnTeamArray[0].classList.remove('team-color');
 }
 
 
-btnTeamArray[0].addEventListener('mouseover', addColorWork);
-btnTeamArray[0].addEventListener('mouseout', removeColorWork);
+btnTeamArray[0].addEventListener('mouseover', addColorWork2);
+btnTeamArray[0].addEventListener('mouseout', removeColorWork2);
 
-function addColorWork() {
+function addColorWork2() {
   btnWorkArray[0].classList.add('work-color');
 } 
 
-function removeColorWork() {
+function removeColorWork2() {
   btnWorkArray[0].classList.remove('work-color');
 }
 
-/*
 btnWorkArray[1].addEventListener('mouseover', addColorTeam);
 btnWorkArray[1].addEventListener('mouseout', removeColorTeam);
 
@@ -76,4 +77,3 @@ function addColorWork() {
 function removeColorWork() {
   btnWorkArray[1].classList.remove('work-color');
 }
-*/
